@@ -1,0 +1,65 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+
+  
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  
+  
+ 
+  
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.Post h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.Post p {
+  color: #666;
+}
