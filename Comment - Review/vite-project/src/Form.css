@@ -1,0 +1,61 @@
+/* Form.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg'); 
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif; /* Adding a font-family for better typography */
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Updated box shadow */
+  font-size: 16px; /* Base font size for the form container */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px; /* Larger font size for the heading */
+}
+
+.input-field, .select-field {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px; /* Font size for input and select fields */
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  font-size: 16px; /* Font size for radio buttons */
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 18px; /* Font size for the submit button */
+  cursor: pointer;
+}
+
+.submit-button:hover 
+{
+  background-color: grey;
+}
