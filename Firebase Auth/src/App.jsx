@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Signup />
-      <hr style={{ marginTop: "10%" }}></hr>
+      
       <Login />
-      <hr style={{ marginTop: "10%" }}></hr>
+      
       <Google />
     </>
   );
